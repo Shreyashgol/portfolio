@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--Header-->
+<div id="header">
+    <div class="container">
+        <nav>
+            <!-- <img src="IMages/gm.png" alt="logo" class="logo"> -->
+            <ul id="sideMenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+            </ul>
+            <i class="fa-solid fa-list"  onclick="openMenu()"></i>
+        </nav>
+        <div class="header-text">
+            <div>
+                <h1>Hi,!'m <span>Shreyash Golhani</span></h1>
+                <p> --An AI and Tech Enthusiast & Driven into data Insights </p>
+                <p>Turning Ideas into Scalable Solutions or Code, Compete, Conquer!</p>
+            </div>
+            <div class="my-img">
+                <img src="images/Shreyash.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--About Me-->
+<div id="about">
+    <div class="contaner">
+        <div class="row">
+            <div class="about-col-1">
+                <div class="code">
+                    <h1>My Playground !!!</h1>
+                    <a href="https://leetcode.com/u/SSSLgol/"><img src="images/leetcode.png" alt=""></a><br>
+                    <a href="https://www.codechef.com/users/shreyashgol"><img class="codechef" src="images/codechef.png" alt=""></a><br>
+                    <a  href="https://codeforces.com/profile/Shreyash_Golhani"><img class="codeforces-logo" src="images/codeforces.png" alt="codeforces-logo"></a>
+                </div>
+
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I'm a B.Tech CSE student at Newton School of Technology and Rishihood University. I have a passion for AI, software development, and entrepreneurship.</p>
+                <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experiense')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Eduction')">Eduction</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li> <span>UI/UX Design</span><br> Figma, Adobe XD, design.</li>
+                        <li> <span>Web Development</span><br>HTML, CSS, JavaScript, React.</li>
+                        <li> <span>Backend Development</span><br>Node.js, Python, Django, APIs</li>
+                        <li> <span>Problem-Solving & DSA</span><br>Problem-solving, algorithms, coding.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experiense">
+                    <ul>
+                        <li> <span>Competitive Programmer</span><br>Desgining Web/App Interfece</li>
+                        <li> <span>Freelancer</span><br> Web development & UI/UX design.</li>
+                        <li> <span>GAME hackthon</span><br>Buliding scratch Games</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Eduction">
+                    <ul>
+                        <li> <span> B.Tech CSE (AI)-></span><br> Newton School of Technology.</li>
+                        <li> <span>Competitive Programming</span><br>LeetCode, CodeChef, CodeForces.</li>
+                        <li> <span> Schooling</span><br> Completed from JNVs.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="service-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <ul>
+                    <li>Building responsive websites with HTML, CSS, and JavaScript</li>
+                    <li>Creating dynamic and interactive UI components</li>
+                    <li>Full-stack application development</li>
+                </ul>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2> Backend Development</h2>
+                <ul>
+                    <li>Developing REST APIs using Node.js (Express.js) & Python (Flask/Django)</li>
+                    <li>Database integration with MongoDB, MySQL, Firebase, etc.</li>
+                </ul>
+            </div>
+            <div>
+                <i id="crop" class="fa-solid fa-crop"></i>
+                <h2>Problem Solving & DSA</h2>
+                <ul>
+                    <li>Writing optimized algorithms for competitive programming</li>
+                    <li>Improving code efficiency & problem-solving skills (LeetCode, CodeChef, etc.).</li>
+                </ul>
+                
+            </div>
+            <div>
+                <i id="crop" class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <ul>
+                    <li>Creating user-friendly interfaces</li>
+                    Prototyping and wireframing using Figma or Adobe XD
+                </ul>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Data Analysis & Visualization</h2>
+                <ul>
+                    <li>Working with datasets using Pandas, NumPy, and Matplotlib</li>
+                    <li>Building dashboards with Power BI/Tableau</li>
+                </ul>
+                
+            </div>
+            <div>
+                <i class="fa-solid fa-bars-progress"></i>
+                <h2>Freelance Services</h2>
+                <ul>
+                    <li>Website design and development for businesses</li>
+                    <li>Consulting in software projects and AI applications</li>
+                </ul>
+                
+            </div>
+        </div>
+
+
+    </div>
+</div>
+    
+<!-- --------porffolio------- -->
+<div id="project">
+    <div class="container">
+        <h1 class="sub-title">Project</h1>
+        <div class="project-list">
+            <div class="proj">
+                <img src="images/projectimg.jpg" alt="">
+                <div class="layer">
+                    <h2>CAPSTONE</h2>
+                    <p>This is my capstone project, which was assigned to me as my end-semester assignment to assess my knowledge of web development (HTML, CSS). I used only HTML and CSS to complete this project. Additionally, I gave an interview about this project to the interviewer. </p>
+                    <a href="https://capstone-project24-8r0xhvt34-shreyash212-techs-projects.vercel.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                </div>
+            </div>
+            <div class="proj">
+                <img src="IMages/projectimg.jpg" alt="">
+                <div class="layer">
+                    <h2>ROCK-PAPER-SCISSOR-GAME</h2>
+                    <p>This mini project is a Rock-Paper-Scissor-Game Web Application built using HTML, CSS, and JavaScript. The application performs the game between computer and a human being. Additionally, it includes features like clearing the display and all the possible cases of game. </p>
+                    <a href="https://rock-paper-scissor-game-eefncw7d1-shreyash212-techs-projects.vercel.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="proj">
+                <img src="IMages/projectimg.jpg" alt="">
+                <div class="layer">
+                    <h2>MYNTRA CLONE</h2>
+                    <p> I developed a Myntra Clone to demonstrate my skills in web development using HTML ,CSS and JavaScript. The objective was to replicate the core structure and design elements of the Myntra website. </p>
+                    <a href="https://myntra-clone-mu-seven.vercel.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a> 
+                </div>
+            </div>
+        </div>
+        <a href="https://my.newtonschool.co/user/shreyash_golhani" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- ---------contact------ -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>shreyashgolhani@gamil.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91-9479601267</p>
+                <div class="social_icons">
+                    <a href="https://www.linkedin.com/in/shreyash-golhani-b95b172b5/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Shreyashgol"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/golhanishreyas2024/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://x.com/GolhaniShr81361"><i class="fa-brands fa-twiter"></i></a>
+                </div>
+                <a href="images/Resume-Shreyash Golhani (8).pdf" download=""><i class="fa-solid fa-hand-point-right"></i></a>
+                <a  href="images/Resume-Shreyash Golhani (8).pdf"download class="btn btn_cv"></i> Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input name="Name" placeholder="Hey, what's your name? 🧐" type="text" required>
+                    <input name="mobile number" type="text" placeholder="+91    Drop your digits 📱" required>
+                    <input type="email" name="Email" id="" placeholder="Your email address, please ✉️" required>
+                    <textarea name="Message" rows="6" placeholder="Tell us what's on your mind... 💭" required></textarea>
+                    <button type="submit" class="btn btn_cv">Send It to the Moon 🚀</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <footer class="copyright">
+        <p>Copyright © Shreyash</p>
+    </footer>
+</div> 
+
+
+<script src="app.js"></script>
+
+</body>
+</html>
