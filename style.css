@@ -6,7 +6,7 @@
 }
 body{
     background-color: rgb(2, 1, 14);
-    color: rgb(37, 170, 148);
+    color: rgba(37, 157, 170, 0.739);
 
 }
 html{
@@ -43,7 +43,7 @@ nav ul li{
     transition: background 0.6s;
 }
 nav ul li:hover{
-    background: #063936;
+    background: #063739dd;
 }
 nav ul li a{
     color: #fff;
@@ -82,14 +82,15 @@ nav ul li a:hover::after{
     margin-top: 20px;
 }
 .header-text h1 span{
-    color: #43ba73;
+    color: #4392ba;
 }
 
 /*--------about----*/
 #about{
-    padding: 80px 0;
+    padding: 50px 0;
     color: #ababaa;
 }
+
 .row{
     display: flex;
     justify-content: space-between;
@@ -108,10 +109,11 @@ nav ul li a:hover::after{
     margin: 20px;
     border-radius: 10px;
     transition: transform 0.5s;
+    display: inline-block;
     
 }
 .code {
-    margin-left: 100px;
+    margin-left: 150px;
 }
 .about-col-1 img:hover{
     transform: scale(1.2);
